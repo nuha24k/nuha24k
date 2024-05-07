@@ -26,8 +26,25 @@
     <img src="https://skillicons.dev/icons?i=javascript,c#,nextjs,mysql,flask" /><br>
 </div>
 <br>
-<h3 align="left">Github Stats</h3>
+<h3 align="center">Github Stats</h3>
 
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=theonlyshannon&show_icons=true&locale=en" alt="theonlyshannon" />
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr>
+      <td>
+        <img 
+            src="https://github-readme-streak-stats.herokuapp.com/?user=theonlyshannon&" alt="theonlyshannon"
+        />
+      </td>
+      <td>
+        <img
+            src="https://github-readme-stats.vercel.app/api?username=theonlyshannon&show_icons=true&locale=en" alt="theonlyshannon" 
+        />
+      </td>
+    </tr>
+  </thead>
+</table>
 
-<img align="left" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=theonlyshannon&" alt="theonlyshannon" />
+
+
+
