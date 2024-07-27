@@ -7,7 +7,7 @@ namespace Theonlyshannon;
 class About extends Me
 {
     /**
-     * Get the basic information about me.
+     * information about me
      *
      * @return array
      */
@@ -25,11 +25,6 @@ class About extends Me
         ];
     }
 
-    /**
-     * Get current activities including work and education.
-     *
-     * @return array
-     */
     public function getCurrentActivity(): array
     {
         return [
@@ -44,11 +39,6 @@ class About extends Me
         ];
     }
 
-   /**
-     * Get the programming languages and frameworks I use daily.
-     *
-     * @return array
-     */
     public function getDailyUseLanguage(): array
     {
         return [
