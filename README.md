@@ -1,49 +1,145 @@
-<h1 align="center">Hi 👋, I'm Sofwan Nuha Al Faruq</h1>
-<h3 align="center">A passionate frontend developer</h3>
+## Hey There! 👋
+```php
+<?php
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=theonlyshannon&label=Profile%20views&color=0e75b6&style=flat" alt="theonlyshannon" /> </p>
+namespace Theonlyshannon;
 
-- 🏫 I’m currently student in **SMK Telkom Purwokerto**
+class About extends Me
+{
+    /**
+     * Get the basic information about me.
+     *
+     * @return array
+     */
+    public function getAboutMe(): array
+    {
+        return [
+            'description' => [
+                'name' => 'Sofwan Nuha Al Faruq',
+                'position' => 'Back-End Developer',         
+                'gmail' => 'Email me at sofwannuhaalfaruq@gmail.com',              
+            ]
+            'hobbies' => [
+                'coding', 'reading', 'gaming', 'music'
+            ],
+        ];
+    }
 
-- 🌱 I’m currently learning **tailwind, react, laravel**
+    /**
+     * Get current activities including work and education.
+     *
+     * @return array
+     */
+    public function getCurrentActivity(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Dilesin',
+                'position' => 'Intern',         
+            ]
+            'school' => [
+                'company' => 'SMK Telkom Purwokerto',
+                'position' => 'Software Engineer Student',         
+            ]
+        ];
+    }
 
-- 💬 Ask me about **tailwind, php, c#**
+   /**
+     * Get the programming languages and frameworks I use daily.
+     *
+     * @return array
+     */
+    public function getDailyUseLanguage(): array
+    {
+        return [
+           'languages' => [
+                'PHP',
+                'JavaScript',
+            ],
+            'frameworks' => [
+                'Laravel',
+                'React',
+                'Bootstrap',
+                'TailwindCSS',
+            ],
+            'tools' => [
+                'Git',
+                'Notion',
+                'Composer',
+                'NPM',
+                'VSCode',
+            ],
+        ];
+    }
 
-- 📫 How to reach me **sofwannuhaalfaruq@gmail.com**
+    public function getFutureGoal(): string
+    {
+        return 'Become Fullstack Engineer';
+    }
+}
+```
+<br/>
 
-- 🏀 Still learning about coding 
-
-<h3 align="center">Connect with me🤗</h3>
-<p align="center">
-<a href="https://linkedin.com/in/sofwan-nuha-al-faruq-5a595b269" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sofwan nuha al faruq" height="30" width="40" /></a>
-<a href="https://instagram.com/lynx3321.img" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="lynx3321.img" height="30" width="40" /></a>
+## Connect With Me 🤗
+<br/>
+<p align="left">
+    <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=gmail" />
+    </a>
+    <a href="https://www.linkedin.com/in/sofwan-nuha-al-faruq-5a595b269">
+        <img src="https://skillicons.dev/icons?i=linkedin" />
+    </a>
+    <a href="https://www.instagram.com/lynx3321.img">
+        <img src="https://skillicons.dev/icons?i=instagram" />
+    </a>
 </p>
+<br/>
 
-<h3 align="center">Tech Stack💫</h3>
-<br>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=javascript,c#,nextjs,mysql,flask" /><br>
-</div>
-<br>
-<h3 align="center">Github Stats</h3>
+<!--
+
+## Tech Stack 💫
+<p align="left">
+    <h3>Technology</h3>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=laravel,react,nextjs,express,bootstrap,tailwind,html,css,js,git,github,nodejs,mysql" />
+  </a>
+    <h3>Tools</h3>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,discord,notion" />
+  </a>
+</p>
+<br/>
+
+-->
+
+## Stats 🦄
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <thead>
     <tr>
       <td>
-        <img 
-            src="https://github-readme-streak-stats.herokuapp.com/?user=theonlyshannon&" alt="theonlyshannon"
-        />
+            <a href="https://git.io/streak-stats">
+                <img src="https://github-readme-streak-stats.herokuapp.com?user=theonlyshannon&theme=transparent&hide_border=true&border_radius=6" alt="GitHub Streak" />
+            </a>
       </td>
       <td>
-        <img
-            src="https://github-readme-stats.vercel.app/api?username=theonlyshannon&show_icons=true&locale=en" alt="theonlyshannon" 
-        />
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=theonlyshannon&show_icons=true&theme=transparent&hide_border=true" />
       </td>
     </tr>
   </thead>
 </table>
+
+<!-- ## 🗂️ Highlight Projects
+
+<a href="https://github.com/dikaproject/social-media-apps.git">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dikaproject&repo=social-media-apps&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
+</a>
+
+<a href="https://github.com/theonlyshannon/slicing-bootstrap.git">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=slicing-bootstrap&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
+</a>
+-->
+
 
 
 
