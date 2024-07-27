@@ -18,7 +18,7 @@ class About extends Me
                 'name' => 'Sofwan Nuha Al Faruq',
                 'position' => 'Back-End Developer',         
                 'gmail' => 'Email me at sofwannuhaalfaruq@gmail.com',              
-            ]
+            ],
             'hobbies' => [
                 'coding', 'reading', 'gaming', 'music'
             ],
@@ -31,34 +31,22 @@ class About extends Me
             'workplace' => [
                 'company' => 'Dilesin',
                 'position' => 'Intern',         
-            ]
+            ],
             'school' => [
                 'company' => 'SMK Telkom Purwokerto',
                 'position' => 'Software Engineer Student',         
-            ]
+            ],
         ];
     }
 
     public function getDailyUseLanguage(): array
     {
         return [
-           'languages' => [
-                'PHP',
-                'JavaScript',
-            ],
-            'frameworks' => [
-                'Laravel',
-                'React',
-                'Bootstrap',
-                'TailwindCSS',
-            ],
-            'tools' => [
-                'Git',
-                'Notion',
-                'Composer',
-                'NPM',
-                'VSCode',
-            ],
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Bootstrap::class,
+            TailwindCss::class,
         ];
     }
 
