@@ -7,7 +7,7 @@ namespace Theonlyshannon;
 class About extends Me
 {
     /**
-     * information about me
+     * Information about me
      *
      * @return array
      */
@@ -49,17 +49,11 @@ class About extends Me
             TailwindCss::class,
         ];
     }
-
-    public function getFutureGoal(): string
-    {
-        return 'Become Fullstack Engineer';
-    }
 }
 ```
 <br/>
 
 ## Connect With Me 🤗
-<br/>
 <p align="left">
     <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=gmail" />
