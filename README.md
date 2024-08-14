@@ -16,7 +16,7 @@ class About extends Me
         return [
             'description' => [
                 'name' => 'Sofwan Nuha Al Faruq',
-                'position' => 'Back-End Developer',         
+                'position' => 'Passionate Back-End Developer',         
                 'gmail' => 'Email me at sofwannuhaalfaruq@gmail.com',              
             ],
             'hobbies' => [
