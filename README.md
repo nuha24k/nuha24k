@@ -104,15 +104,21 @@ class About extends Me
 <!-- ## 🗂️ Highlight Projects
 
 <a href="https://github.com/dikaproject/social-media-apps.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dikaproject&repo=social-media-apps&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=unipath&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
+</a>
+
+<a href="https://github.com/dikaproject/social-media-apps.git">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=laravel-11-repository-interface&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
 </a>
 
 <a href="https://github.com/theonlyshannon/slicing-bootstrap.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=slicing-bootstrap&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
-</a>
--->
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dikaproject&repo=dinacom-backend&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
+</a> -->
 
 
+## 🏆 Honors and Awards  
+🥇 **1st Winner Dinus Application Competition 2025**  
+🥈 **2nd Winner Hackathon Code Collab Telkom University Purwokerto 2024**  
 
 
 
