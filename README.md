@@ -1,55 +1,62 @@
 ## Hey There! 👋
 ```php
-<?php
+## Hey There! 👋
 
-namespace Theonlyshannon;
+```ts
+// About.ts
 
-class About extends Me
-{
-    /**
-     * Information about me
-     *
-     * @return array
-     */
-    public function getAboutMe(): array
-    {
-        return [
-            'description' => [
-                'name' => 'Sofwan Nuha Al Faruq',
-                'position' => 'Passionate Back-End Developer',         
-                'gmail' => 'Email me at sofwannuhaalfaruq@gmail.com',              
-            ],
-            'hobbies' => [
-                'coding', 'reading', 'gaming', 'music'
-            ],
-        ];
-    }
+export class About {
+  /**
+   * Information about me
+   */
+  getAboutMe() {
+    return {
+      description: {
+        name: "Sofwan Nuha Al Faruq",
+        position: "Passionate Back-End Developer",
+        gmail: "Email me at sofwannuhaalfaruq@gmail.com",
+      },
+      hobbies: ["coding", "reading", "gaming", "music"],
+    };
+  }
 
-    public function getCurrentActivity(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Dilesin',
-                'position' => 'Intern',         
-            ],
-            'school' => [
-                'company' => 'SMK Telkom Purwokerto',
-                'position' => 'Software Engineer Student',         
-            ],
-        ];
-    }
+  /**
+   * Current activity
+   */
+  getCurrentActivity() {
+    return {
+      workplace: {
+        company: "Smartelco",
+        position: "Intern",
+      },
+      school: {
+        company: "SMK Telkom Purwokerto",
+        position: "Software Engineer Student",
+      },
+    };
+  }
 
-    public function getDailyUseLanguage(): array
-    {
-        return [
-            Php::class,
-            Javascript::class,
-            Laravel::class,
-            Bootstrap::class,
-            TailwindCss::class,
-        ];
-    }
+  /**
+   * Daily use language / framework
+   */
+  getDailyUseLanguage() {
+    return [
+      "TypeScript",
+      "JavaScript",
+      "Rust",
+      "PHP",
+      "Golang",
+      "Python"
+    ];
+  }
 }
+
+const me = new About();
+
+console.log(me.getAboutMe());
+console.log(me.getCurrentActivity());
+console.log(me.getDailyUseLanguage());
+
 ```
 <br/>
 
@@ -58,7 +65,7 @@ class About extends Me
     <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=gmail" />
     </a>
-    <a href="https://www.linkedin.com/in/sofwan-nuha-al-faruq-5a595b269">
+    <a href="https://www.linkedin.com/in/sofwannuhaalfaruq">
         <img src="https://skillicons.dev/icons?i=linkedin" />
     </a>
     <a href="https://www.instagram.com/lynx3321.img">
@@ -91,11 +98,11 @@ class About extends Me
     <tr>
       <td>
             <a href="https://git.io/streak-stats">
-                <img src="https://github-readme-streak-stats.herokuapp.com?user=theonlyshannon&theme=transparent&hide_border=true&border_radius=6" alt="GitHub Streak" />
+                <img src="https://github-readme-streak-stats.herokuapp.com?user=nuha24k&theme=transparent&hide_border=true&border_radius=6" alt="GitHub Streak" />
             </a>
       </td>
       <td>
-        <img align="center" src="https://github-readme-stats.vercel.app/api?username=theonlyshannon&show_icons=true&theme=transparent&hide_border=true" />
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=nuha24k&show_icons=true&theme=transparent&hide_border=true" />
       </td>
     </tr>
   </thead>
