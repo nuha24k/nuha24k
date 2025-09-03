@@ -1,20 +1,19 @@
 ## Hey There! 👋
-```php
-## Hey There! 👋
 
 ```ts
-// About.ts
-
 export class About {
   /**
    * Information about me
    */
-  getAboutMe() {
+  getAboutMe(): {
+    description: { name: string; position: string; email: string };
+    hobbies: string[];
+  } {
     return {
       description: {
         name: "Sofwan Nuha Al Faruq",
         position: "Passionate Back-End Developer",
-        gmail: "Email me at sofwannuhaalfaruq@gmail.com",
+        email: "sofwannuhaalfaruq@gmail.com",
       },
       hobbies: ["coding", "reading", "gaming", "music"],
     };
@@ -23,29 +22,57 @@ export class About {
   /**
    * Current activity
    */
-  getCurrentActivity() {
+  getCurrentActivity(): {
+    workplace: { company: string; position: string };
+    organization: { company: string; position: string };
+    school: { company: string; position: string };
+    major: { company: string; position: string };
+  } {
     return {
       workplace: {
         company: "Smartelco",
         position: "Intern",
       },
+      organization: {
+        company: "IntechCode Enterprise",
+        position: "Associate Founder",
+      },
       school: {
         company: "SMK Telkom Purwokerto",
         position: "Software Engineer Student",
+      },
+      major: {
+        company: "Telkom University",
+        position: "Computer Science",
       },
     };
   }
 
   /**
-   * Daily use language / framework
+   * Current achievements
    */
-  getDailyUseLanguage() {
+  getCurrentAchievements(): { name: string; place: string }[] {
+    return [
+      {
+        name: "Dian Nuswantoro Computer Competition 2025",
+        place: "🥇 1st Place",
+      },
+      {
+        name: "Hackathon Sevent Telkom University Purwokerto 2024",
+        place: "🥈 2nd Place",
+      },
+    ];
+  }
+
+  /**
+   * Daily use languages
+   */
+  getDailyUseLanguages(): string[] {
     return [
       "TypeScript",
       "JavaScript",
       "Rust",
       "PHP",
-      "Golang",
       "Python"
     ];
   }
@@ -53,9 +80,10 @@ export class About {
 
 const me = new About();
 
-console.log(me.getAboutMe());
-console.log(me.getCurrentActivity());
-console.log(me.getDailyUseLanguage());
+console.log("About Me:", me.getAboutMe());
+console.log("Current Activity:", me.getCurrentActivity());
+console.log("Current Achievements:", me.getCurrentAchievements());
+console.log("Daily Use Languages:", me.getDailyUseLanguages());
 
 ```
 <br/>
