@@ -88,37 +88,6 @@ console.log("Daily Use Languages:", me.getDailyUseLanguages());
 ```
 <br/>
 
-## Connect With Me 🤗
-<p align="left">
-    <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=gmail" />
-    </a>
-    <a href="https://www.linkedin.com/in/sofwannuhaalfaruq">
-        <img src="https://skillicons.dev/icons?i=linkedin" />
-    </a>
-    <a href="https://www.instagram.com/lynx3321.img">
-        <img src="https://skillicons.dev/icons?i=instagram" />
-    </a>
-</p>
-<br/>
-
-<!--
-
-## Tech Stack 💫
-<p align="left">
-    <h3>Technology</h3>
-  <a href="#">
-    <img src="https://skillicons.dev/icons?i=laravel,react,nextjs,express,bootstrap,tailwind,html,css,js,git,github,nodejs,mysql" />
-  </a>
-    <h3>Tools</h3>
-  <a href="#">
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,discord,notion" />
-  </a>
-</p>
-<br/>
-
--->
-
 ## Stats 🦄
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -135,25 +104,4 @@ console.log("Daily Use Languages:", me.getDailyUseLanguages());
     </tr>
   </thead>
 </table>
-
-<!-- ## 🗂️ Highlight Projects
-
-<a href="https://github.com/dikaproject/social-media-apps.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=unipath&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
-</a>
-
-<a href="https://github.com/dikaproject/social-media-apps.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=theonlyshannon&repo=laravel-11-repository-interface&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
-</a>
-
-<a href="https://github.com/theonlyshannon/slicing-bootstrap.git">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dikaproject&repo=dinacom-backend&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e"/>
-</a> -->
-
-
-## 🏆 Honors and Awards  
-🥇 **1st Winner Dinus Application Competition 2025**  
-🥈 **2nd Winner Hackathon Code Collab Telkom University Purwokerto 2024**  
-
-
 
