@@ -1,5 +1,11 @@
 ## Hey There! 👋
 
+<p>
+  <img src="mariocode.gif" alt="Mario coding" width="100%" />
+</p>
+
+
+
 ```ts
 export class About {
   /**
