@@ -1,8 +1,8 @@
 ## Hey There! 👋
 
-<p>
+<!-- <p>
   <img src="mariocode.gif" alt="Mario coding" width="100%" />
-</p>
+</p> -->
 
 
 
